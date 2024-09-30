@@ -1,0 +1,22 @@
+const { Sequelize } = require("sequelize");
+
+const databaseConfig = {
+  database: "cs260",
+  username: "root",
+  password: "123456",
+  host: "localhost",
+  dialect: "mysql",
+  port: 3306
+};
+
+const sequelize = new Sequelize(
+  databaseConfig.database,
+  databaseConfig.username,
+  databaseConfig.password,
+  {
+    host: databaseConfig.host,
+    dialect: "mysql",
+  }
+);
+
+module.exports = sequelize;
