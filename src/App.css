@@ -1,0 +1,35 @@
+/* app.css */
+.footer {
+  background-color: #444b59;
+  height: 0.5rem; /* Converted from 1% */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.input-text{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: 15rem; 
+  padding: 0.5rem; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 0.5rem; /* Add border radius */
+  font-size: 1rem; /* Set font size */
+  color: #333; /* Set text color */
+  background-color: #fff; /* Set background color */
+}
+.input-text:hover {
+  border-color: black; /* Change border color on hover */
+}
+.universal-button{
+  width: 7.5rem;
+  height: 2rem;
+  color: white; 
+  margin-top: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+.universal-button:hover {
+  background-color: #aaaaaa;
+  text-decoration: underline;
+}
