@@ -1,0 +1,70 @@
+# IIT Patna Faculty Application Website
+
+This project is a faculty application website for IIT Patna. It takes all the required information of the applicant and stores the information in different tables in MySQL database. All the tables in database are interconnected by foreign keys.
+
+## Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Tech Stack
+
+This faculty application website is built using the following technology stack:
+
+- **Frontend**:
+  - JavaScript (React.js)
+- **Backend**:
+  - Node.js
+  - Express.js
+- **Database**:
+  - MySQL (Relational Database Management System)
+  - Sequelise (as an ORM for database)
+- **Development Tools**:
+  - Git
+  - npm (Node Package Manager)
+- **Testing Tools**:
+  - Postman (api testing)
+
+## Installation
+
+To install IIT Patna Faculty Application Website locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/cs260_project.git`
+2. Install dependencies for backend and frontend: `npm install` 
+3. Run the server for backend: `cd server | node server.js`
+4. Run the server for frontend: `npm start`
+
+
+## Usage
+
+Once the application is installed and running, users can access this website through a web browser. Here are some key actions users can perform:
+
+1. **User Authentication**: Log in or sign up securely using username and password.
+2. **Change Password**: Change your password securely.
+3. **Additional Information**: Add additional information by clciking on Add More buttons.
+4. **Uploads and View**: Easily view the uploaded documents by simply clicking on a button.
+5. **Final Print Out**: Get a pdf of all you responses saved to your local PC.
+   
+
+
+## Contributions
+
+Contributions to IIT Patna Faculty Application Website are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Make your changes and commit them to your fork.
+3. Submit a pull request with a detailed description of your changes.
+
+## License
+
+This project is maintained by the following geeks:
+
+- [Aditya Tomar 2101MM02](https://github.com/adityatomar512)
+- [Vaani Goyal 2201AI41](https://github.com/VaaniGoyal)
+
+IIT Patna Faculty Application Website is licensed under the [MIT License](LICENSE).
+
+---
