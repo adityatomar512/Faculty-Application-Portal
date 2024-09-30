@@ -1,0 +1,23 @@
+// Template.js
+import React from 'react';
+import './App.css';
+function Header() {
+  return (
+    <div className="container-fluid" style={{ backgroundColor: '#f7ffff', marginBottom: '10px' }}>
+      <div className="container">
+      <div className="row" style={{ marginBottom: '-10rem' }}>
+      <h3 style={{ textAlign: 'center', color: '#414002', fontWeight: 'bold', fontSize: '2.3em', marginTop: '0.5rem', fontFamily: 'Noto Sans, sans-serif' }}>भारतीय प्रौद्योगिकी संस्थान पटना</h3>
+      <h3 style={{ textAlign: 'center', color: '#414002', fontWeight: 'bold', fontFamily: 'Oswald, sans-serif', fontSize: '2.2em', marginTop: '-1.5rem' }}>Indian Institute of Technology Patna</h3>
+      </div>
+      </div>
+    </div>
+  );
+}
+function Footer() {
+  return (
+    <footer className="footer">
+    </footer>
+  );
+}
+
+export { Header, Footer };
